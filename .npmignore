@@ -1,2 +1,4 @@
 #coffee
 *.coffee
+
+test.*

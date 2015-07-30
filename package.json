@@ -1,6 +1,6 @@
 {
   "name": "zeus-html",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Simple HTML generator written on coffee-script",
   "author": {
     "email": "feax2013@gmail.com",
@@ -43,6 +43,9 @@
   },
   "engines": {
     "node": ">= 0.8.x"
+  },
+  "scripts": {
+    "prepublish": "coffee -cw index.coffee"
   },
   "main": "index.coffee",
   "dependencies": {
