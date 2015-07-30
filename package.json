@@ -1,6 +1,6 @@
 {
   "name": "zeus-html",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple HTML generator written on coffee-script",
   "author": {
     "email": "feax2013@gmail.com",
