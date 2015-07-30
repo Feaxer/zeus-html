@@ -45,7 +45,7 @@
     "node": ">= 0.8.x"
   },
   "scripts": {
-    "prepublish": "coffee -cw index.coffee"
+    "prepublish": "coffee -c index.coffee"
   },
   "main": "index.coffee",
   "dependencies": {
