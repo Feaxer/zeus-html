@@ -1,0 +1,51 @@
+{
+  "name": "zeus-html",
+  "version": "0.0.99",
+  "description": "Simple HTML generator written on coffee-script",
+  "author": {
+    "email": "feax2013@gmail.com",
+    "url": "http://fl.ru/users/Feax",
+    "name": "Alexey Yukhnovets"
+  },
+  "homepage": "https://github.com/Feaxer/zeus-html",
+  "repository": {
+    "url": "git@github.com:Feaxer/zeus-html.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/Feaxer/zeus-html/issues"
+  },
+  "license": "MIT",
+  "licenses": [{
+    "type": "MIT"
+  }],
+  "tags": [
+    "html",
+    "generate",
+    "gen",
+    "generator",
+    "web",
+    "builder",
+    "ui",
+    "DOM"
+  ],
+  "keywords": [
+    "html",
+    "generate",
+    "gen",
+    "generator",
+    "web",
+    "builder",
+    "ui",
+    "DOM"
+  ],
+  "scripts": {
+  },
+  "engines": {
+    "node": ">= 0.8.x"
+  },
+  "main": "index.coffee",
+  "dependencies": {
+    "os": "*",
+  }
+}
