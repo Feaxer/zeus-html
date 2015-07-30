@@ -46,6 +46,6 @@
   },
   "main": "index.coffee",
   "dependencies": {
-    "os": "*",
+    "os": "*"
   }
 }
