@@ -10,7 +10,7 @@ npm install zeus-html --save
 ###### JavaScript
 
 ```js
-var html = require("zeus-html")()
+var html = require("zeus-html")(true)
 
 html.div({class: "form-group"}, function(fg){
     fg.label({}, "Text field: ")
