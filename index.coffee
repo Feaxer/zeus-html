@@ -22,7 +22,17 @@ class Html
         Array(@ident+1).join(if @tabs_to_spaces then Array(@tabs_size+1).join(' ') else "\t")
 
     attributes: (attrs) -> 
-        html = if attrs? then ("#{attr}='#{value}'" for attr, value of attrs).join(' ') else ''
+        html = ''
+        if attrs?
+            html = (for attr, value of attrs
+                if Array.isArray(value)
+                    "#{attr}='#{value.join(' ')}'"
+                else
+                    if typeof value == "boolean"
+                        "#{attr}"
+                    else
+                        "#{attr}='#{value}'"
+            ).join(' ')
         if html.length > 0 then " "+html else ''
 
     tag: (tag, attrs, content) ->

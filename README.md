@@ -31,23 +31,17 @@ console.log(html.output)
 ```
 ###### HTML
 ```html
-<div class="form-group">
-    <label>
-        Text field: 
-    </label>
-    <input type="text" class="form-control">
+<div class='form-group'>
+        <label>Text field: </label>
+        <input type='text' class='form-control'>
 </div>
-<div class="form-group">
-    <label>
-        Required text field: 
-        <span class="required">
-            *
-        </span>
-    </label>
-    <input type="text" class="form-control" required>
+<div class='form-group'>
+        <label>
+                Required text field:
+                <span class='required'>*</span>
+        </label>
+        <input type='text' class='form-control' required>
 </div>
-<button type="submit" class="btn btn-default">
-    Submit
-</button>
+<button type='submit' class='btn btn-default'>Submit</button>
 ```
 
